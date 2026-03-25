@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Title</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+    @font-face {
+      font-family: 'NintendoDS';
+      src: url('https://file.garden/Z3nf4eZzZUtRPfhK/free%20layout%20assets/breezy/nintendo%20ds.woff') format('truetype');
+    }
+
+    body {
+      font-family: 'NintendoDS', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url("https://file.garden/acGl6JN_MnXO-bA-/bluetechback.png");
+      color: #333;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1024px;
+      margin: 20px auto;
+      padding: 10px;
+      background: linear-gradient(0deg, rgba(176,198,230,1) 0%, rgba(215,230,252,1) 44%, rgba(246,254,255,1) 100%);
+      border: 3px solid #a5b8e6;
+      border-radius: 15px;
+    }
+
+    .banner {
+      height: 150px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      background-image: url('https://file.garden/acGl6JN_MnXO-bA-/bluebanner1.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .content {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      border: 3px inset #779aba;
+    }
+
+    h1 {
+      color: #0071a6;
+    }
+
+    p {
+      font-family: "Kosugi Maru", sans-serif;
+      color: #003e78;
+    }
+    
+    .project-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 0.5px solid #a5b8e6;
+      margin-bottom: 10px;
+    }
+    .img-row {
+        display: flex;
+        gap: 10px; /* space between images */
+    }
+
+    .img-row .project-img {
+        width: 50%;
+    }
+    
+    .text-row {
+        display: flex;
+        align-items: center;   /* vertical center */
+    }
+
+    .text-block {
+        width: 50%;
+        display: flex;
+        justify-content: center; /* horizontal center *align-items: center;     /* vertical center (inside its box) */
+        text-align: center;      /* center the text itself */
+        padding: 10px;
+    }
+
+    .text-row .project-img {
+        width: 50%;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 2px solid #a5b8e6;
+      background: #eef6ff;
+      text-decoration: none;
+      color: #4bc1c9;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      color: #c336ff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="content">
+      <h1>Glitch Art</h1>
+      
+      <p>
+        <div class="img-row">
+            <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/moonlight.png" alt="original sun">
+            
+            <div class="text-block">
+                <p>
+                    Glitch art is a form of digital art that involves intentionally introducing errors or distortions into digital media to create unique visual effects.
+                    For these images, I used a combination of Audacity and Notepad++ to create the visual distortions you see below.
+                </p>
+            </div>
+        </div>
+
+      <div class="img-row">
+        <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/original%20horse" alt="horse">
+        <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/glitched%20horse" alt="glitched-horse">
+      </div>
+      
+      <div class="img-row">
+        <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/original%20sun" alt="original sun">
+        <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/glitched%20sun" alt="glitched-sunset">
+      </div>
+    
+      <div class="img-row">
+        <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/Sunset.png" alt="sunset">
+        <img class="project-img" src="https://file.garden/acGl6JN_MnXO-bA-/Glitched%20Sunset" alt="glitched-sunset">
+      </div>
+
+      <a class="back-link" href="portfolio.html">← Back to Portfolio</a>
+    </div>
+
+  </div>
+</body>
+</html>
